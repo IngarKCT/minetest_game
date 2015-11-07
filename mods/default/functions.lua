@@ -12,6 +12,8 @@ function default.node_sound_defaults(table)
 			{name = "default_dug_node", gain = 0.25}
 	table.place = table.place or
 			{name = "default_place_node_hard", gain = 1.0}
+        table.place_failed = table.place_failed or
+			{name = "default_place_failed", gain = 1.0}
 	return table
 end
 
