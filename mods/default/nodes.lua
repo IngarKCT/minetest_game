@@ -279,8 +279,9 @@ minetest.register_node("default:dirt_with_grass", {
 	groups = {crumbly = 3, soil = 1},
 	drop = 'default:dirt',
 	sounds = default.node_sound_dirt_defaults({
-		footstep = {name = "default_grass_footstep", gain = 0.25},
+		footstep = {name = "default_grass_footstep", gain = 0.5},
                 dug = {name = "default_grass_break", gain = 1.0},
+                place = {name = "default_grass_place", gain = 1.0},
 	}),
 })
 
@@ -292,8 +293,9 @@ minetest.register_node("default:dirt_with_grass_footsteps", {
 	groups = {crumbly = 3, soil = 1, not_in_creative_inventory = 1},
 	drop = 'default:dirt',
 	sounds = default.node_sound_dirt_defaults({
-		footstep = {name = "default_grass_footstep", gain = 0.25},
+		footstep = {name = "default_grass_footstep", gain = 0.5},
                 dug = {name = "default_grass_break", gain = 1.0},
+                place = {name = "default_grass_place", gain = 1.0},
 	}),
 })
 
@@ -306,8 +308,9 @@ minetest.register_node("default:dirt_with_dry_grass", {
 	groups = {crumbly = 3, soil = 1},
 	drop = 'default:dirt',
 	sounds = default.node_sound_dirt_defaults({
-		footstep = {name = "default_grass_footstep", gain = 0.4},
+		footstep = {name = "default_grass_footstep", gain = 0.5},
                 dug = {name = "default_grass_break", gain = 1.0},
+                place = {name = "default_grass_place", gain = 1.0},
 	}),
 })
 
